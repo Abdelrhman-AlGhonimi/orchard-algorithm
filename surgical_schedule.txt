@@ -1,0 +1,119 @@
+Data read successfully. Number of operations: 42
+
+Operations data:
+Surgeon 0: Patient 48, Duration 19, Emergency: False
+Surgeon 1: Patient 44, Duration 20, Emergency: False
+Surgeon 1: Patient 45, Duration 18, Emergency: False
+Surgeon 2: Patient 46, Duration 12, Emergency: False
+Surgeon 3: Patient 43, Duration 21, Emergency: False
+Surgeon 3: Patient 47, Duration 20, Emergency: False
+Surgeon 6: Patient 49, Duration 22, Emergency: False
+Surgeon 8: Patient 12, Duration 7, Emergency: True
+Surgeon 8: Patient 30, Duration 7, Emergency: True
+Surgeon 8: Patient 31, Duration 11, Emergency: True
+Surgeon 8: Patient 32, Duration 10, Emergency: True
+Surgeon 8: Patient 33, Duration 10, Emergency: True
+Surgeon 8: Patient 69, Duration 7, Emergency: False
+Surgeon 9: Patient 60, Duration 15, Emergency: False
+Surgeon 9: Patient 61, Duration 9, Emergency: False
+Surgeon 9: Patient 62, Duration 5, Emergency: False
+Surgeon 9: Patient 63, Duration 9, Emergency: False
+Surgeon 9: Patient 79, Duration 4, Emergency: False
+Surgeon 10: Patient 51, Duration 6, Emergency: False
+Surgeon 10: Patient 53, Duration 16, Emergency: False
+Surgeon 10: Patient 55, Duration 6, Emergency: False
+Surgeon 11: Patient 59, Duration 16, Emergency: False
+Surgeon 11: Patient 73, Duration 10, Emergency: False
+Surgeon 12: Patient 54, Duration 22, Emergency: False
+Surgeon 12: Patient 56, Duration 12, Emergency: False
+Surgeon 12: Patient 70, Duration 8, Emergency: False
+Surgeon 13: Patient 58, Duration 4, Emergency: False
+Surgeon 14: Patient 57, Duration 4, Emergency: False
+Surgeon 14: Patient 76, Duration 4, Emergency: False
+Surgeon 14: Patient 77, Duration 4, Emergency: False
+Surgeon 14: Patient 78, Duration 7, Emergency: False
+Surgeon 15: Patient 65, Duration 18, Emergency: False
+Surgeon 18: Patient 66, Duration 15, Emergency: False
+Surgeon 18: Patient 68, Duration 34, Emergency: False
+Surgeon 18: Patient 71, Duration 14, Emergency: False
+Surgeon 20: Patient 50, Duration 10, Emergency: False
+Surgeon 20: Patient 52, Duration 12, Emergency: False
+Surgeon 20: Patient 72, Duration 9, Emergency: False
+Surgeon 20: Patient 74, Duration 15, Emergency: False
+Surgeon 21: Patient 64, Duration 5, Emergency: False
+Surgeon 21: Patient 67, Duration 5, Emergency: False
+Surgeon 23: Patient 29, Duration 6, Emergency: True
+
+Number of rooms: 4
+Available rooms: [0, 1, 2, 3]
+Number of surgeons: 17
+
+Algorithm results:
+Final fitness: -1250.0
+
+Final result:
+Best schedule: -1250.0
+Execution time: 0:00:02.051396
+
+Surgical Schedule:
+==========================================================================
+| Room | Surgeon | Patient | Duration | Emergency | Start        | End          |
+==========================================================================
+
+Room 0:
+------------------------------------------------------------------------------------------
+|  0 |       0 |      48 |       19 | No        | 08:00 AM     | 08:19 AM     |
+|  0 |       8 |      12 |        7 | Yes       | 08:30 AM     | 08:37 AM     |
+|  0 |       1 |      44 |       20 | No        | 08:45 AM     | 09:05 AM     |
+|  0 |       9 |      63 |        9 | No        | 09:15 AM     | 09:24 AM     |
+|  0 |      10 |      55 |        6 | No        | 09:30 AM     | 09:36 AM     |
+|  0 |       8 |      33 |       10 | Yes       | 09:37 AM     | 09:47 AM     |
+|  0 |      18 |      68 |       34 | No        | 10:00 AM     | 10:34 AM     |
+|  0 |      14 |      77 |        4 | No        | 10:45 AM     | 10:49 AM     |
+|  0 |      11 |      73 |       10 | No        | 11:00 AM     | 11:10 AM     |
+|  0 |      10 |      51 |        6 | No        | 11:15 AM     | 11:21 AM     |
+|  0 |       8 |      69 |        7 | No        | 11:30 AM     | 11:37 AM     |
+|  0 |       9 |      60 |       15 | No        | 11:45 AM     | 12:00 PM     |
+|  0 |      18 |      66 |       15 | No        | 12:15 PM     | 12:30 PM     |
+------------------------------------------------------------------------------------------
+
+Room 1:
+------------------------------------------------------------------------------------------
+|  1 |      12 |      56 |       12 | No        | 08:00 AM     | 08:12 AM     |
+|  1 |       8 |      31 |       11 | Yes       | 08:15 AM     | 08:26 AM     |
+|  1 |      13 |      58 |        4 | No        | 08:30 AM     | 08:34 AM     |
+|  1 |      12 |      70 |        8 | No        | 08:45 AM     | 08:53 AM     |
+|  1 |      20 |      52 |       12 | No        | 09:00 AM     | 09:12 AM     |
+|  1 |       1 |      45 |       18 | No        | 09:15 AM     | 09:33 AM     |
+|  1 |      14 |      57 |        4 | No        | 09:45 AM     | 09:49 AM     |
+------------------------------------------------------------------------------------------
+
+Room 2:
+------------------------------------------------------------------------------------------
+|  2 |       8 |      32 |       10 | Yes       | 08:00 AM     | 08:10 AM     |
+|  2 |      23 |      29 |        6 | Yes       | 08:15 AM     | 08:21 AM     |
+|  2 |       2 |      46 |       12 | No        | 08:30 AM     | 08:42 AM     |
+|  2 |      20 |      50 |       10 | No        | 08:45 AM     | 08:55 AM     |
+|  2 |       9 |      79 |        4 | No        | 09:00 AM     | 09:04 AM     |
+|  2 |       3 |      47 |       20 | No        | 09:15 AM     | 09:35 AM     |
+|  2 |      10 |      53 |       16 | No        | 09:45 AM     | 10:01 AM     |
+|  2 |      21 |      64 |        5 | No        | 10:15 AM     | 10:20 AM     |
+------------------------------------------------------------------------------------------
+
+Room 3:
+------------------------------------------------------------------------------------------
+|  3 |      18 |      71 |       14 | No        | 08:00 AM     | 08:14 AM     |
+|  3 |       9 |      62 |        5 | No        | 08:15 AM     | 08:20 AM     |
+|  3 |       9 |      61 |        9 | No        | 08:30 AM     | 08:39 AM     |
+|  3 |       3 |      43 |       21 | No        | 08:45 AM     | 09:06 AM     |
+|  3 |      14 |      78 |        7 | No        | 09:15 AM     | 09:22 AM     |
+|  3 |      14 |      76 |        4 | No        | 09:30 AM     | 09:34 AM     |
+|  3 |      20 |      72 |        9 | No        | 09:45 AM     | 09:54 AM     |
+|  3 |       8 |      30 |        7 | Yes       | 10:00 AM     | 10:07 AM     |
+|  3 |      15 |      65 |       18 | No        | 10:15 AM     | 10:33 AM     |
+|  3 |      12 |      54 |       22 | No        | 10:45 AM     | 11:07 AM     |
+|  3 |      11 |      59 |       16 | No        | 11:15 AM     | 11:31 AM     |
+|  3 |      21 |      67 |        5 | No        | 11:45 AM     | 11:50 AM     |
+|  3 |       6 |      49 |       22 | No        | 12:00 PM     | 12:22 PM     |
+|  3 |      20 |      74 |       15 | No        | 12:30 PM     | 12:45 PM     |
+------------------------------------------------------------------------------------------
